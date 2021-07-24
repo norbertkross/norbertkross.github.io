@@ -3,17 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "03eaa9ab328f4a892ca8802f694d29b5",
-"assets/assets/Avatar-1.png": "82160bd674e307325385a71b7f7b7c05",
-"assets/assets/Avatar-22.png": "8a6a07e0591056f060ef638d21bbd482",
-"assets/assets/Avatar-23.png": "17c65821cff50fec5d8d077d4a6635ad",
-"assets/assets/Avatar-33.png": "e469ae1bfc7f82481413fdc1e53d6a7a",
-"assets/assets/Avatar-34.png": "844721ea87d5bf5a13a0d156a4add4d7",
-"assets/assets/Avatar-36.png": "6d6ec3627902a90e14459593e100f42c",
-"assets/assets/daniel-korpai-mxPiMiz7KCo-unsplash.jpg": "93f3815eb9006b4071359bd5b860cd38",
-"assets/assets/GitHub_96px@3x.png": "6b0a969a434d48d508ce93cc26621feb",
-"assets/assets/Icon%2520awesome-location-arrow@3x.png": "20a49bb4e7a7e1067562f8ed15a03e20",
-"assets/assets/LinkedIn_104px@3x.png": "9b990b729781157f42e50198141b89e7",
+  "assets/AssetManifest.json": "6a625615c6bd5859d664d3d6e983f761",
+"assets/assets/Avatar-22.png": "f03681e860f7ba7777285a6911e78eee",
+"assets/assets/Avatar-33.png": "9334e2ac627f3ea7800d6568ce657b4a",
+"assets/assets/Avatar-34.png": "1493deb5832d6bf765b4a143a63086e7",
+"assets/assets/GitHub_96px@3x.png": "be6407ee37c3b5f37afe54c105d67dc4",
+"assets/assets/Icon%252520awesome-location-arrow@3x.png": "6fd0b495f7f7508c8bff02d130561f04",
+"assets/assets/LinkedIn_104px@3x.png": "c96432f288ea55109c01be1539e0490f",
 "assets/assets/Tech-stack/dart.png": "44e19243ce9f5baf2085221dd9805b38",
 "assets/assets/Tech-stack/firebase.png": "ba72519ef91edd0b0465a8734b497573",
 "assets/assets/Tech-stack/html_css.png": "c0ae9989b24c4f0a7593cfe290c8777b",
@@ -24,8 +20,8 @@ const RESOURCES = {
 "assets/assets/Tech-stack/pluginIcon.png": "3827ad8a1fbab347ba24136d200215d4",
 "assets/assets/Tech-stack/react.png": "3ac97d50f61ec96b13ca6a77d34683d4",
 "assets/assets/Tech-stack/the-c-programming-language-computer-icons-computer-programming-source-code-programming-379507b506bcaa225df9378940b22774.png": "255de04590f5750ab21aacf18b34ced2",
-"assets/assets/Twitter_104px@3x.png": "5c6a0ef3555e683c1610edcaaefee3cd",
-"assets/assets/uis/IMG_20201205_164357_294.jpg": "3e3abfb7a273952fc78fed55e6a14331",
+"assets/assets/Twitter_104px@3x.png": "6820e27e896e0f8f8f6e774129204182",
+"assets/assets/uis/IMG_20201205_164357_294.jpg": "fadf4c2610f7c72293f5effe676f783a",
 "assets/assets/uis/onebite.png": "593fda2b67806898ab3c429b920f0136",
 "assets/assets/uis/Screenshot%2520(118)@3x.png": "7ed7e2f75a995e6f8c4caf8a35615d90",
 "assets/assets/uis/Screenshot%2520(119)@3x.png": "698d340002317d874d50497c5e0f4810",
@@ -33,6 +29,12 @@ const RESOURCES = {
 "assets/assets/uis/Screenshot%2520(121)@3x.png": "babf010d0a53a4e1451e227879a77d7f",
 "assets/assets/uis/Screenshot%2520(26).jpg": "e7b3864d3a3b586734f8d1391462026e",
 "assets/assets/uis/Screenshot%2520(27).png": "5229281128d1da1da27f9a47713c0ea8",
+"assets/assets/uis/Screenshot%252520(118)@3x.png": "5aee84d532a7e4391fd5724e6e8c088c",
+"assets/assets/uis/Screenshot%252520(119)@3x.png": "fba402fb3b581d65c7d7871597dc0e82",
+"assets/assets/uis/Screenshot%252520(120)@3x.png": "df5efc443f5d1cf36935724a9a816e2b",
+"assets/assets/uis/Screenshot%252520(121)@3x.png": "22352df509edf75577de93662072fcdc",
+"assets/assets/uis/Screenshot%252520(26).jpg": "6fe6efdc432a6f7b7a51bd8fd7826fbc",
+"assets/assets/uis/Screenshot%252520(27).png": "5229281128d1da1da27f9a47713c0ea8",
 "assets/assets/uis/Screenshot_20210215-021158.png": "78fbbfe1289704e01b7e781a2ef27d43",
 "assets/assets/uis/Screenshot_20210215-021821.png": "5941d13fb9e7e335b49ec6057f3377bd",
 "assets/assets/uis/Screenshot_20210310-001533.png": "eb2b7eaea10a78e60d386ff3bd7a810b",
@@ -47,17 +49,17 @@ const RESOURCES = {
 "assets/assets/uis/Screenshot_20210328-074359222.png": "f6e0492d7e15db32af2f7cf1ea86d59e",
 "assets/assets/uis/Screenshot_20210328-080008.png": "275fec5532a15f596d3e9a9dfa62bece",
 "assets/assets/uis/Screenshot_20210328-080024.png": "d53f4922cf2a6e5b3947a0a1c30f5b76",
-"assets/assets/YouTube%25202_96px@3x.png": "fb89551634efbd01e2a8b2df643c066c",
+"assets/assets/YouTube%2525202_96px@3x.png": "e4ebc08ca06db5b02be44314dea8eb38",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "a8d1d130b9909728d724354dc06becc1",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "fdb932d0c5b4b9b38df7746d616e3446",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "44e5e97c388f84adcf2d862d318aa9d5",
-"/": "44e5e97c388f84adcf2d862d318aa9d5",
-"main.dart.js": "be9fe37a9cfdb3ee260e9fefd7060953",
+"index.html": "f840d0e0c7e1167f3312ba6c41c6b124",
+"/": "f840d0e0c7e1167f3312ba6c41c6b124",
+"main.dart.js": "7fef947d42ae005d2819bbf28014786b",
 "manifest.json": "62de9cc5c327b044021aac4f66c64e12",
 "version.json": "ad71d2eb44c54a7963dce4a31dd6aa90"
 };
@@ -77,7 +79,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
