@@ -3,10 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6a625615c6bd5859d664d3d6e983f761",
+  "assets/AssetManifest.json": "06c3ceff054866f623da6c322950feac",
+"assets/assets/Avatar-1.png": "124f93ea74923db95c2ca9b2f7f7e5d4",
 "assets/assets/Avatar-22.png": "f03681e860f7ba7777285a6911e78eee",
+"assets/assets/Avatar-23.png": "7237e198a19def26f98dda6904e9e77e",
 "assets/assets/Avatar-33.png": "9334e2ac627f3ea7800d6568ce657b4a",
 "assets/assets/Avatar-34.png": "1493deb5832d6bf765b4a143a63086e7",
+"assets/assets/Avatar-36.png": "67eb0948364663399cc11f147ea35bb2",
+"assets/assets/daniel-korpai-mxPiMiz7KCo-unsplash.jpg": "93f3815eb9006b4071359bd5b860cd38",
 "assets/assets/GitHub_96px@3x.png": "be6407ee37c3b5f37afe54c105d67dc4",
 "assets/assets/Icon%252520awesome-location-arrow@3x.png": "6fd0b495f7f7508c8bff02d130561f04",
 "assets/assets/LinkedIn_104px@3x.png": "c96432f288ea55109c01be1539e0490f",
@@ -57,9 +61,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "f840d0e0c7e1167f3312ba6c41c6b124",
-"/": "f840d0e0c7e1167f3312ba6c41c6b124",
-"main.dart.js": "7fef947d42ae005d2819bbf28014786b",
+"index.html": "d902e8fcd525dae5cb0a81790a20c6f3",
+"/": "d902e8fcd525dae5cb0a81790a20c6f3",
+"main.dart.js": "96392e685f643b2f0212973518c90cdf",
 "manifest.json": "62de9cc5c327b044021aac4f66c64e12",
 "version.json": "ad71d2eb44c54a7963dce4a31dd6aa90"
 };
